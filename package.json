@@ -1,0 +1,28 @@
+{
+  "name": "@omaiboroda/promise-some",
+  "version": "0.0.1",
+  "description": "A promise that resolves if at least one of the promises is resolved",
+  "main": "promise-some.lib.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omaiboroda/promise.some.git"
+  }
+  "scripts": {
+    "test": "jest",
+    "build": "babel ./promise-some.js --out-file promise-some.lib.js",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "promise",
+    "some"
+  ],
+  "author": "Oles Maiboroda",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-env": "^2.4.1",
+    "jest": "^23.3.0"
+  }
+}
